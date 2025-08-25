@@ -44,7 +44,7 @@ restaurant_menu/
 git clone https://github.com/yourusername/restaurant-menu-manager.git
 cd restaurant-menu-manager
 2. Create a Virtual Environment
-
+``"python
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
@@ -66,6 +66,7 @@ Update app.py with your PostgreSQL connection details.
 ``bach
 # Run Flask app
 flask run
+
 
 
 
