@@ -63,10 +63,10 @@ CREATE TABLE Menu_Items (
     item_price SMALLINT DEFAULT 0
 );
 Update app.py with your PostgreSQL connection details.
-
-5. Run the Flask App
-
+``bach
+# Run Flask app
 flask run
+
 
 
 
