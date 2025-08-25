@@ -19,6 +19,7 @@ A full-stack **Restaurant Menu Management System** built with **Python, Flask, P
 - **Version Control:** Git + GitHub  
 
 ## 📂 Project Structure
+
 restaurant_menu/
 ├── app.py # Flask application entry point
 ├── menu_item.py # MenuItem class (save, update, delete)
@@ -32,39 +33,25 @@ restaurant_menu/
 │ ├── view_item.html # Single item details
 └── static/ # (Optional) CSS/JS assets
 
-bash
-Copier
-Modifier
-
 ## ⚙️ Setup Instructions
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/yourusername/restaurant-menu-manager.git
 cd restaurant-menu-manager
 2. Create a Virtual Environment
-bash
-Copier
-Modifier
+
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
 3. Install Dependencies
-bash
-Copier
-Modifier
+
 pip install -r requirements.txt
 4. Configure PostgreSQL
 Create a database in PostgreSQL:
 
-sql
-Copier
-Modifier
 CREATE DATABASE restaurant_menu;
 Create the table:
 
-sql
-Copier
-Modifier
 CREATE TABLE Menu_Items (
     item_id SERIAL PRIMARY KEY,
     item_name VARCHAR(30) NOT NULL,
@@ -73,7 +60,6 @@ CREATE TABLE Menu_Items (
 Update app.py with your PostgreSQL connection details.
 
 5. Run the Flask App
-bash
-Copier
-Modifier
+
 flask run
+
