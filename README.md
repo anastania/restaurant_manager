@@ -44,14 +44,14 @@ restaurant_menu/
 git clone https://github.com/yourusername/restaurant-menu-manager.git
 cd restaurant-menu-manager
 2. Create a Virtual Environment
-``"python
+## python
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
-3. Install Dependencies
+## 3. Install Dependencies
 
 pip install -r requirements.txt
-4. Configure PostgreSQL
+## 4. Configure PostgreSQL
 Create a database in PostgreSQL:
 
 CREATE DATABASE restaurant_menu;
@@ -66,6 +66,7 @@ Update app.py with your PostgreSQL connection details.
 ``bach
 # Run Flask app
 flask run
+
 
 
 
