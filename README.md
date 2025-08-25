@@ -18,7 +18,8 @@ A full-stack **Restaurant Menu Management System** built with **Python, Flask, P
 - **ORM/Logic:** Custom classes (`MenuItem`, `MenuManager`) for database operations  
 - **Version Control:** Git + GitHub  
 
-## 📂 Project Structure
+<details>
+  <summary>📂 Project Structure</summary>
 
 restaurant_menu/
 ├── app.py # Flask application entry point
@@ -33,6 +34,7 @@ restaurant_menu/
 │ ├── view_item.html # Single item details
 └── static/ # (Optional) CSS/JS assets
 
+</details>
 ## ⚙️ Setup Instructions
 ### 1. Clone the Repository
 
@@ -62,4 +64,5 @@ Update app.py with your PostgreSQL connection details.
 5. Run the Flask App
 
 flask run
+
 
