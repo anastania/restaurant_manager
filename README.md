@@ -1,6 +1,9 @@
 # 🍽️ Restaurant Menu Manager (Flask + PostgreSQL)
 A full-stack **Restaurant Menu Management System** built with **Python, Flask, PostgreSQL, and Jinja2 templates**. This project started as a **console application** and was extended into a **web-based manager dashboard** to make managing menu items more interactive and user-friendly.
-
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-2.3-green.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## 🚀 Features
 - **Add new menu items** with name and price.
 - **Delete items** from the menu.
@@ -64,5 +67,6 @@ Update app.py with your PostgreSQL connection details.
 5. Run the Flask App
 
 flask run
+
 
 
