@@ -38,11 +38,12 @@ restaurant_menu/
 └── static/ # (Optional) CSS/JS assets
 
 </details>
+
 ## ⚙️ Setup Instructions
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/restaurant-menu-manager.git
-cd restaurant-menu-manager
+- git clone https://github.com/yourusername/restaurant-menu-manager.git
+- cd restaurant-menu-manager
 2. Create a Virtual Environment
 ## python
 python -m venv venv
@@ -66,6 +67,7 @@ Update app.py with your PostgreSQL connection details.
 ``bach
 # Run Flask app
 flask run
+
 
 
 
