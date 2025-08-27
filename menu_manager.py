@@ -28,7 +28,7 @@ class MenuManager:
         
         try:
             cursor = connection.cursor()
-            query = "SELECT item_id, item_name, item_price FROM Menu_Items WHERE item_name = %s"
+            query = "SELECT item_id, item_name, item_price FROM menu_items WHERE item_name = %s"
             cursor.execute(query, (item_name,))
             result = cursor.fetchone()
             
@@ -55,7 +55,7 @@ class MenuManager:
         
         try:
             cursor = connection.cursor()
-            query = "SELECT item_id, item_name, item_price FROM Menu_Items ORDER BY item_name"
+            query = "SELECT item_id, item_name, item_price FROM menu_items ORDER BY item_name"
             cursor.execute(query)
             results = cursor.fetchall()
             
